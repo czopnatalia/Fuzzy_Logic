@@ -1,7 +1,7 @@
 # Fuzzy Logic Decision Support System: "To Sleep or Not to Sleep?"
 
 ## Overview
-This project implements a Mamdani-type Fuzzy Inference System (FIS) designed to solve a common human dilemma: deciding whether to continue working, take a break, or go to sleep. The system processes subjective inputs—Fatigue and Task Importance—to provide a nuanced recommendation that mirrors human reasoning.
+This project implements a Mamdani-type Fuzzy Inference System (FIS) designed to solve a common human dilemma: deciding whether to continue working, take a break, or go to sleep. The system processes subjective inputs: Fatigue and Task Importance to provide a nuanced recommendation that mirrors human reasoning.
 
 ## Features
 - **Linguistic Variables:** Uses 3 input sets for Fatigue and 4 for Task Importance.
@@ -10,7 +10,7 @@ This project implements a Mamdani-type Fuzzy Inference System (FIS) designed to 
 - **Visualization:** Generates membership function plots and a 3D Control Surface.
 
 ## Requirements
-To run this project, you need Python 3.x and the following libraries:
+To run this project, you need Python and the following libraries:
 - `numpy`: For numerical operations.
 - `scikit-fuzzy`: The core fuzzy logic library.
 - `matplotlib`: For generating plots.
